@@ -1,0 +1,39 @@
+{
+  "type": "Reconstructor",
+  "name": "Prime Enhancer",
+  "description": "Enhances [white]Ulrichius[lightgray] units to the next tier",
+  "size": 6,
+  "constructTime": 3600,
+  "consumes": {
+    "power": 2,
+	"liquids": [
+	"water/0.2"
+	],
+    "items": {
+      "items": [
+        {
+          "item": "silicon",
+          "amount": 120
+        },
+        {
+          "item": "graphite",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  "requirements": [
+  "titanium/120",
+  "thorium/60",
+  "silicon/150",
+  "graphite/70"
+  ],
+  "upgrades": [
+  [
+  "aaa.gust",
+  "aab.thrust"
+  ]
+  ],
+  "category": "units",
+  "research": "null"
+}
