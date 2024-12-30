@@ -1,0 +1,54 @@
+{
+    "name": "Gust",
+    "description": "A small armored tank that shoots bullets that explode on impact.",
+    "type": "tank",
+    "template": "TankUnitType",
+    "crushDamage": 0.08,
+    "speed": 1,
+    "health": 900,
+    "rotateSpeed": 2,
+    "outlineColor": "565666",
+    "treadPullOffset": 0,
+    "treadFrames": 18,
+    "treadRects": [
+        {
+            "x": 15,
+            "y": -30,
+            "width": 17,
+            "height": 64
+        }
+    ],
+    "hitSize": 16,
+    "armor": 1.2,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "aaa.gust-top",
+            "rotationLimit": 250,
+            "rotateSpeed": 10,
+            "reload": 100,
+            "top": true,
+            "mirror": false,
+            "rotate": true,
+            "inaccuracy": 0,
+            "velocityRnd": 0.25,
+            "shootSound": "boom",
+            "x": 0,
+            "y": 0,
+            "shootY": 10,
+            "bullet": {
+                "type": "BasicBulletType",
+                "hitSound": "bang",
+                "hitEffect": "shockwave",
+                "speed": 10,
+                "width": 2.5,
+                "height": 5,
+                "damage": 28,
+                "splashDamage": 32,
+                "splashDamageRadius": 16,
+                "lifetime": 20,
+                "sprite": "ulrichius-tankround"
+            }
+        }
+    ]
+}
