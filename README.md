@@ -4,7 +4,8 @@ Welcome to **Ulrichius**, a mod created just for fun! This mod is designed for c
 
 ## Updates
 ### v.1.1.1
-- Fixed some stuff and renamed everything (so far).
+- Fixed some stuff and renamed everything.
+- Resprited the Prime Enhancer
 ### v.1.1.0
 - Added the Barrage unit
 
