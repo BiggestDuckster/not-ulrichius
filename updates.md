@@ -8,5 +8,5 @@ Every update in recorded history!
 ### v.1.1.0
 - Added the **Barrage unit**
 ### v.1.0.0
-- Units like the **Gust, Thrust*** have been made
-- **Prime Enhancer,** and **Garage**
+- Units like the **Gust, Thrust** have been made
+- Blocks like **Prime Enhancer,** and **Garage**
