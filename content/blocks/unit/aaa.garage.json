@@ -3,7 +3,7 @@
     "name": "Garage",
     "description": "Basic unit factory for making [white]Ulrichius[lightgray] units",
     "health": 1200,
-    "size": 4,
+    "size": 5,
     "consumes": {
         "power": 4.5
     },
