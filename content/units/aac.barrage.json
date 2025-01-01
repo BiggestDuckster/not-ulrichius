@@ -89,7 +89,6 @@
             "shootY": 5,
             "bullet": {
                 "type": "BasicBulletType",
-                "smokeEffect": "shootSmokeSquare",
                 "speed": 10,
                 "trailLength": 2,
                 "trailWidth": 2,
