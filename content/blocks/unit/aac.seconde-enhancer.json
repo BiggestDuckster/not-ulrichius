@@ -12,9 +12,9 @@
         "items": {
             "items": [
                 "silicon/120",
-				"plastanium/20",
+		"plastanium/20",
                 "titanium/80",
-				"metaglass/50"
+		"metaglass/50"
             ]
         }
     },
