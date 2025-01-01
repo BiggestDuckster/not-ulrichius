@@ -2,7 +2,7 @@
     "type": "Reconstructor",
     "name": "Prime Enhancer",
     "description": "Enhances [white]Ulrichius[lightgray] units to the next tier",
-    "size": 8,
+    "size": 6,
     "constructTime": 3600,
     "consumes": {
         "power": 9.5,
