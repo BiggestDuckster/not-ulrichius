@@ -1,0 +1,117 @@
+{
+    "type": "ItemTurret",
+    "name": "Concussion",
+    "description": "Fires heavy elements at target enemies.",
+    "size": 2,
+    "health": 50,
+    "reload": 20,
+    "range": 160,
+    "inaccuracy": 6,
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [
+            {
+				"progress": "recoil"
+                "type": "RegionPart",
+                "suffix": "-barrel",
+                "heatColor": "ff9527",
+                "layerOffset": -0.001,
+                "moveY": -2,
+                "mirror": false,
+            },
+            {
+				"progress": "recoil"
+                "type": "RegionPart",
+                "suffix": "-side",
+                "moveY": -1,
+				"moveRot": -5,
+                "mirror": true,
+            }
+        ]
+    },
+    "rotateSpeed": 5,
+    "hasItems": true,
+    "hasLiquids": true,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "titanium": {
+            "type": "BasicBulletType",
+            "speed": 5,
+            "lifetime": 30,
+            "splashDamage": 20,
+            "splashDamageRadius": 30,
+            "damage": 50,
+            "hitSound": "dullExplosion",
+            "despawnSound": "dullExplosion",
+            "width": 9,
+            "height": 12,
+            "sprite": "bullet"
+        },
+        "thorium": {
+            "type": "BasicBulletType",
+            "speed": 4.5,
+            "lifetime": 30,
+            "splashDamage": 42,
+            "splashDamageRadius": 35,
+            "status": "melting",
+            "statusDuration": 30,
+            "damage": 35,
+            "hitSound": "dullExplosion",
+            "despawnSound": "dullExplosion",
+            "width": 9,
+            "height": 12,
+            "sprite": "bullet"
+        },
+        "lead": {
+            "type": "BasicBulletType",
+            "speed": 5.5,
+            "lifetime": 30,
+            "splashDamage": 6,
+            "splashDamageRadius": 20,
+            "reloadMultiplier": 1.5,
+            "damage": 30,
+            "hitSound": "dullExplosion",
+            "despawnSound": "dullExplosion",
+            "width": 9,
+            "height": 12,
+            "sprite": "bullet"
+        },
+        "surge-alloy": {
+            "type": "BasicBulletType",
+            "speed": 5,
+            "lifetime": 30,
+            "splashDamage": 20,
+            "splashDamageRadius": 50,
+            "reloadMultiplier": 0.8,
+            "status": "shocked",
+            "statusDuration": 30,
+            "lightning": 2,
+            "lightningLength": 5,
+            "lightningLengthRand": 1,
+            "damage": 62,
+            "hitSound": [
+                "dullExplosion",
+                "spark"
+            ],
+            "despawnSound": [
+                "dullExplosion",
+                "spark"
+            ],
+            "width": 10,
+            "height": 13,
+            "sprite": "bullet"
+        }
+    },
+    "consumes": {
+        "coolant": {
+            "amount": 0.1
+        }
+    },
+    "requirements": [
+        "lead/50",
+        "copper/100",
+        "titanium/50"
+    ],
+    "category": "turret",
+    "research": "null"
+}

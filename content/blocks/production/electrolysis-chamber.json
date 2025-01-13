@@ -1,0 +1,61 @@
+{
+    "type": "GenericCrafter",
+    "name": "Electrolysis Chamber",
+    "description": "Uses electricity to separate oxygen and hydrogen from water. Outputs hydrogen from the cathode (negative) and oxygen from the anode (positive).",
+    "size": 2,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water"
+			},
+			{
+				"type": "DrawBubbles",
+				"color": "7693e3",
+				"size": 10,
+				"recurrence": 3,
+				"spread": 6,
+				"radius": 1.5,
+				"amount": 20
+			},
+			{
+				"type": "DrawRegion"
+			},
+			{
+				"type": "DrawLiquidOutputs"
+			}
+        ]
+    },
+	"craftEffect": "pulverize",
+	"ambientSound": "electricHum",
+	"ambientSoundVolume": 0.2,
+    "hasLiquids": true,
+    "hasPower": true,
+	"group": "liquids",
+	"invertFlip": true,
+    "liquidCapacity": 30,
+	"liquidOutputDirections": [1, 3]
+	"regionRotated1": 3,
+	"rotate": true,
+	"dumpExtraLiquid": true,
+    "outputLiquids": [
+        "ozone/0.0666666666666667",
+        "hydrogen/0.1333333333333333"
+    ],
+    "consumes": {
+        "power": 2,
+        "liquids": [
+            "water/0.2"
+        ]
+    },
+    "requirements": [
+        "lead/300"
+    ],
+    "category": "crafting",
+    "research": null
+}

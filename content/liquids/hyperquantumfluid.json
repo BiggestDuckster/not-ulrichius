@@ -1,0 +1,14 @@
+{
+	"type": "CellLiquid",
+	"name": "Hyperquantum Fluid",
+	"description": "Extremely dense and compact, but a light and cold fluid. Used as a catalyst and coolant for demanding builds.",
+    "heatCapacity": 1.2,
+	"temperature": 0.115,
+	"effect": "freezing",
+	"viscosity": 0.9,
+	"boilPoint": 0.9,
+	"moveThroughBlocks": true,
+	"capPuddles": false,
+	"color": "e1faff",
+	"research": null
+}

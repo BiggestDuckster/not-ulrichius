@@ -1,0 +1,78 @@
+{
+    "name": "Thermic",
+    "description": "huh? oh yeah, I dunno.",
+    "type": "tank",
+    "template": "TankUnitType",
+    "crushDamage": 2.7,
+    "speed": 0.6,
+    "health": 17000,
+    "rotateSpeed": 1.8,
+    "outlineColor": "565666",
+    "hitSize": 32,
+    "armor": 15,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "aad.thermic-top",
+            "layerOffset": 0.01,
+            "shootCone": 2,
+            "rotateSpeed": 4,
+            "rotationLimit": 180,
+            "reload": 120,
+            "parts": [
+                {
+                    "type": "RegionPart",
+                    "suffix": "-barrel-l",
+                    "recoilIndex": 0,
+                    "under": true,
+                    "moveY": -10,
+                    "mirror": false,
+                    "progress": "recoil"
+                },
+                {
+                    "type": "RegionPart",
+                    "suffix": "-barrel-r",
+                    "recoilIndex": 1,
+                    "under": true,
+                    "moveY": -10,
+                    "mirror": false,
+                    "progress": "recoil"
+                }
+            ],
+            "top": true,
+            "mirror": false,
+            "rotate": true,
+            "inaccuracy": 0,
+            "velocityRnd": 0.25,
+            "shootSound": "artillery",
+            "shoot": {
+                "type": "ShootBarrel",
+                "shots": 2,
+                "shotDelay": 60,
+                "barrels": [
+                -5, 0, 0,
+                5, 0, 0
+                ]
+            },
+            "x": 0,
+            "y": -5,
+            "shootY": 19,
+            "bullet": {
+                "type": "BasicBulletType",
+                "shootEffect": "shootTitan",
+                "smokeEffect": "shootSmokeTitan",
+                "hitSound": "explosion",
+                "hitEffect": "massiveExplosion",
+                "makeFire": true,
+                "splashDamage": 75,
+                "splashDamageRadius": 15,
+                "speed": 5,
+                "width": 10,
+                "height": 10,
+                "damage": 105,
+                "lifetime": 60,
+                "sprite": "circle"
+            }
+        },
+    ]
+}

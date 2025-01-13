@@ -1,0 +1,12 @@
+{
+	"name": "Exotic Matter",
+	"description": "Strange liquid. Defies common laws, used in complex structures to fuel advanced processes, and seems to have negative mass.",
+    "heatCapacity": 1.4,
+	"temperature": 0.19,
+	"effect": "shocked",
+	"viscosity": 0.2,
+	"gas": true,
+	"lightColor": "bec8ff",
+	"color": "bec8ff",
+	"research": null
+}

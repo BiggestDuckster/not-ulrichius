@@ -1,0 +1,82 @@
+{
+    "type": "GenericCrafter",
+    "name": "Hypercooler",
+    "description": "condenses hydrogen into a superliquid state with unique properties. Uses cryofluid for cooling and phase fabric to enhance molecular behavior, producing a substance with exotic characteristics.",
+    "size": 3,
+    "craftEffect": {
+        "type": "RadialEffect",
+        "amount": 4,
+        "rotationSpacing": 90,
+        "rotationOffset": 90,
+        "lengthOffset": 10,
+        "effect": {
+            "type": "ParticleEffect",
+            "particles": 6,
+            "cone": 90,
+            "followParent": true,
+            "rotWithParent": false,
+            "sizeFrom": 0.9,
+            "sizeTo": 0.2,
+            "colorFrom": "bec8ff",
+            "colorTo": "97a5f7",
+            "lifetime": 60,
+            "length": 1.5,
+            "baseLength": 1.7,
+            "interp": "pow2",
+            "sizeInterp": "pow3In"
+        }
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            {
+                "type": "DrawPlasma",
+                "suffix": "-plasma-",
+                "plasma1": "bec8ff",
+                "plasma2": "97a5f7"
+            },
+			{
+				"type": "DrawGlowRegion",
+				"suffix": "-top",
+				"glowScale": 10,
+				"color": "bec8ff",
+				"alpha": 1
+			},
+            {
+                "type": "DrawRegion",
+                "suffix": "-spinner",
+                "rotateSpeed": 6
+            },
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    },
+	"ambientSound": "pulse",
+	"ambientSoundVolume": 0.4,
+    "hasItems": true,
+    "hasLiquids": true,
+    "hasPower": true,
+    "liquidCapacity": 60,
+    "itemCapacity": 5,
+    "outputLiquid": "exoticmatter/0.0666666666666667",
+    "consumes": {
+        "power": 5,
+        "liquids": [
+            "hydrogen/0.1",
+            "cryofluid/0.1666666666666667"
+        ],
+        "items": [
+            "phase-fabric/1"
+        ]
+    },
+    "requirements": [
+        "lead/300"
+    ],
+    "category": "crafting",
+    "research": null
+}

@@ -1,0 +1,158 @@
+{
+    "type": "ItemTurret",
+    "name": "Perplex",
+    "description": "Fires revolving bullets that explode on impact",
+    "size": 4,
+    "health": 3650,
+    "reload": 60,
+    "range": 360,
+    "xRand": 2,
+    "shoot": {
+        "type": "ShootBarrel",
+        "shots": 3,
+        "shotDelay": 6,
+        "barrels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            -20
+        ]
+    },
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [
+            {
+                "type": "RegionPart",
+                "suffix": "-butt",
+                "moveY": -5,
+                "mirror": false,
+                "progress": "recoil",
+                "layerOffset": -0.001
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",
+                "heatColor": "dcdae9",
+                "moveX": 2,
+                "moveRot": -7,
+                "mirror": true,
+                "progress": "warmup"
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-side",
+                "heatColor": "dcdae9",
+                "moveY": -1,
+                "moveRot": -10,
+                "mirror": true,
+                "progress": "warmup"
+            },
+            {
+                "type": "shapePart",
+                "y": 18,
+                "hollow": true,
+                "circle": true,
+                "layer": 110,
+                "color": "dcdae9",
+                "stroke": 0,
+                "strokeTo": 1,
+                "radiusTo": 8,
+                "radius": 8
+            },
+            {
+                "type": "shapePart",
+                "y": 18,
+                "hollow": true,
+                "circle": true,
+                "layer": 110,
+                "color": "dcdae9",
+                "stroke": 0,
+                "strokeTo": 1,
+                "radiusTo": 2,
+                "radius": 2
+            },
+            {
+                "type": "shapePart",
+                "y": 18,
+                "hollow": true,
+                "circle": false,
+				"rotateSpeed": 3,
+                "layer": 110,
+                "color": "dcdae9",
+                "stroke": 0,
+                "strokeTo": 1,
+                "radiusTo": 8,
+                "radius": 8
+            }
+        ]
+    },
+    "rotateSpeed": 5,
+    "shootSound": "plasma01",
+    "hasPower": true,
+    "hasItems": true,
+    "ammoTypes": {
+        "titanium": {
+            "type": "BasicBulletType",
+            "speed": 5,
+            "spin": 8,
+            "shootEffect": [
+                "shootTitan",
+                "shootSmokeSquareBig"
+            ],
+            "smokeEffect": "shootSmokeSquareBig",
+            "hitEffect": [
+                [
+                    "blastExplosion",
+                    "hitBulletColor"
+                ]
+            ],
+            "despawnEffect": [
+                [
+                    "blastExplosion",
+                    "hitBulletColor"
+                ]
+            ],
+            "hitSound": "plasma02",
+            "despawnSound": "plasma02",
+            "lifetime": 80,
+            "frontColor": "f7dcff",
+            "backColor": "cf8ee2",
+            "trailColor": "cf8ee2",
+            "status": "shocked",
+            "statusDuration": 60,
+            "weaveMag": 2.2,
+            "weaveScale": 8,
+            "trailParam": 5,
+            "trailLength": 8,
+            "trailWidth": 1.5,
+            "splashDamage": 120,
+            "splashDamageRadius": 30,
+            "damage": 20,
+            "homingPower": 0.08,
+            "homingRange": 150,
+            "pierce": true,
+            "width": 12,
+            "height": 12,
+            "shrinkY": 0,
+            "shrinkX": 0,
+            "sprite": "ulrichius-divine-ring"
+        }
+    },
+    "heatColor": "dcdae9",
+    "consumes": {
+		"power": 1,
+        "coolant": {
+            "amount": 0.1
+        }
+    },
+    "requirements": [
+        "copper/30"
+    ],
+    "category": "turret",
+    "research": "null"
+}

@@ -1,0 +1,27 @@
+{
+    "type": "UnitFactory",
+    "name": "Garage",
+    "description": "Basic unit factory for making [white]Ulrichius[lightgray] units",
+    "health": 1200,
+    "size": 4,
+    "consumes": {
+        "power": 4.5
+    },
+    "plans": [
+        {
+            "unit": "aaa.gust",
+            "requirements": [
+                "silicon/20",
+                "titanium/50"
+            ],
+            "time": 1200
+        }
+    ],
+    "requirements": [
+        "titanium/100",
+        "silicon/80",
+        "graphite/80"
+    ],
+    "category": "units",
+    "research": "null"
+}
