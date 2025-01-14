@@ -1,7 +1,13 @@
-Every update in recorded history!
+Every update in recorded history! 
+Note: v.A.B.C
+A refers to major updates
+B refers to small additions
+C refers to fixes
 
 ## Updates
-### v.2.2.1
+### v.2.2.2
+- Added proper build costs to the **Hypercooler**, **Electrolysis Chamber**
+### v.2.2.1 (I forgot to update the repository, thats why.)
 - Added **Hyperquantum Fluid** and **Exotic Matter**
 - Added **Neodymium** and **Archisolenoid** (no proper way to make/harvest yet)
 - Added new blocks, **Hypercooler** and **Electrolysis Chamber**
