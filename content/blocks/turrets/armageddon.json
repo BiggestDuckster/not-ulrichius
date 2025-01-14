@@ -1,75 +1,94 @@
 {
-  "type": "ItemTurret",
-  "name": "Armageddon",
-  "description": "Launches a giant nuclear shell that detonates on impact. Extremely deadly.",
-  "size": 5,
-  "health": 9000,
-  "range": 1600,
-  "reload": 480,
-  "rotateSpeed": 1,
-  "recoil": 15,
-  "shake": 30,
-  "heatColor": "#ffa5a5FF",
-  "cooldownTime": 30
-  "unitSort": "strongest"
-  "drawer": {
-    "type": "DrawTurret",
-    "parts": [
-      {
-        "type": "RegionPart",
-        "suffix": "-side", 
-        "heatColor": "#ffa5a5FF",
-        "moveY": -1, 
-        "moveRot": -15, 
-        "mirror": true, 
-        "progress": "recoil", 
-      }
-    ]
-  },
-  "ammoTypes": {
-    "copper": {
-      "type": "ArtilleryBulletType",
-      "speed": 4,
-      "damage": 5000,
-	  "splashDamage": 2000
-	  "hitSound": "armaExplode",
-      "despawnSound": "armaExplode",
-      "hitSoundVolume": 10,
-	  "splashDamageRadius": 400
-      "lifetime": 720,
-      "hitEffect": ["impactReactorExplosion","instBomb", "bigShockwave", "dynamicWave"], // Effect triggered on hit
-	  "despawnEffect": ["impactReactorExplosion","instBomb", "bigShockwave", "dynamicWave"],
-      "trailEffect": ["missileTrailSmoke", "missileTrail", "incendTrail", "colorTrail"], // Trail effect (none by default)
-      "trailColor": "#ffeac8FF",
-	  "trailWidth": 4
-	  "trailLength": 30
-      "status": "burning",
-      "statusDuration": 360,
-	  "smokeEffect": ["instHit", "fireballsmoke", "instBomb"],
-	  "width": 50,
-	  "height": 50,
-	  "impact": true,
-	  "knockback": 50,
-	  "hitShake": 50,
-	  "lightOpacity": 0.2,
-	  "lightRadius": 10,
-    }
-  },
-  "maxAmmo": 10,
-  "ammoPerShot": 1,
-  "targetGround": true,
-  "targetAir": false,
-  "shootSound": "armaShoot",
-  "category": "turret",
-  "requirements": [
-	"copper/1000",
-	"lead/1000",
-	"silicon/800",
-	"graphite/960",
-	"plastanium/500",
-	"surge-alloy/150",
-	"thorium/500"
-  ],
-  "research": null,
-  "recoilPow": 2,
+    "type": "ItemTurret",
+    "name": "Armageddon",
+    "description": "Launches a giant nuclear shell that detonates on impact. Extremely deadly.",
+    "size": 5,
+    "health": 9000,
+    "range": 1600,
+    "reload": 480,
+    "rotateSpeed": 1,
+    "recoil": 15,
+    "shake": 30,
+    "heatColor": "#ffa5a5FF",
+    "cooldownTime": 30,
+    "unitSort": "strongest",
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [
+            {
+                "type": "RegionPart",
+                "suffix": "-side",
+                "heatColor": "#ffa5a5FF",
+                "moveY": -1,
+                "moveRot": -15,
+                "mirror": true,
+                "progress": "recoil"
+            }
+        ]
+    },
+    "ammoTypes": {
+        "copper": {
+            "type": "ArtilleryBulletType",
+            "speed": 4,
+            "damage": 5000,
+            "splashDamage": 2000,
+            "hitSound": "armaExplode",
+            "despawnSound": "armaExplode",
+            "hitSoundVolume": 10,
+            "splashDamageRadius": 400,
+            "lifetime": 720,
+            "hitEffect": [
+                "impactReactorExplosion",
+                "instBomb",
+                "bigShockwave",
+                "dynamicWave"
+            ],
+            "despawnEffect": [
+                "impactReactorExplosion",
+                "instBomb",
+                "bigShockwave",
+                "dynamicWave"
+            ],
+            "trailEffect": [
+                "missileTrailSmoke",
+                "missileTrail",
+                "incendTrail",
+                "colorTrail"
+            ],
+            "trailColor": "#ffeac8FF",
+            "trailWidth": 4,
+            "trailLength": 30,
+            "status": "burning",
+            "statusDuration": 360,
+            "smokeEffect": [
+                "instHit",
+                "fireballsmoke",
+                "instBomb"
+            ],
+            "width": 50,
+            "height": 50,
+            "impact": true,
+            "knockback": 50,
+            "hitShake": 50,
+            "lightOpacity": 0.2,
+            "lightRadius": 10
+        }
+    },
+    "maxAmmo": 10,
+    "ammoPerShot": 1,
+    "targetGround": true,
+    "targetAir": false,
+    "shootSound": "armaShoot",
+    "category": "turret",
+    "requirements": [
+        "copper/1000",
+        "lead/1000",
+        "silicon/800",
+        "graphite/960",
+        "plastanium/500",
+        "surge-alloy/150",
+        "thorium/500"
+    ],
+    "research": null,
+    "recoilPow": 2
 }
