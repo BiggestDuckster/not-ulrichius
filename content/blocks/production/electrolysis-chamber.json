@@ -54,7 +54,10 @@
         ]
     },
     "requirements": [
-        "lead/300"
+        "graphite/40",
+	"silicon/30",
+	"lead/35",
+	"titanium/30"
     ],
     "category": "crafting",
     "research": null
