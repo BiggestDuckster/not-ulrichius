@@ -6,7 +6,7 @@ Welcome to **Ulrichius**, a mod created just for fun! This mod is designed for c
 Before using any of the assets in this mod, please read the [license](LICENSE). The license outlines what is and isn’t allowed regarding the use of code and sprites.
 
 ## Updates?
-To view any updates, check out the updates [here](updates).
+To view any updates, check out the updates [here](updates.md).
 
 ## Acknowledgements
 Special thanks to:
