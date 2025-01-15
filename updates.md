@@ -1,5 +1,5 @@
-Every update in recorded history! 
-Note: v.A.B.C
+### Every update in recorded history! 
+### Note: v.A.B.C
 A refers to major updates
 B refers to small additions
 C refers to fixes
