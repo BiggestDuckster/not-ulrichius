@@ -5,22 +5,25 @@ Note: v.A.B.C
 *B* refers to small additions,
 *C* refers to fixes
 
-# STUFF ADDED SO FAR (2.2.2)
-### Units
-Gust, Thrust, Barrage
-### Items
-Neodymium, Archisolenoid
-### Liquids
-Hyperquantum Fluid, Exotic Matter
-## Blocks
-### Turrets
-Concussion, Perplex
-### Crafters
-Hypercooler, Electrolysis Chamber
-### Units
-Garage, Prime Enhancer, Seconde Enhancer
-
-
+# STUFF ADDED SO FAR (2.2.2, Blocks)
+//environment
+//ores
+//wall ores
+//crafting
+**hyper-cooler, electrolysis-chamber**
+//sandbox
+//defense
+//transport
+//liquid
+//power
+//production
+//storage
+//turrets
+**concussion, armageddon, perplex**
+//units
+**garage, prime-enhancer, seconde-enhancer**
+//payloads
+//logic
 
 ## Updates
 ### v.2.2.2
@@ -29,7 +32,7 @@ Garage, Prime Enhancer, Seconde Enhancer
 - Added **Hyperquantum Fluid** and **Exotic Matter**
 - Added **Neodymium** and **Archisolenoid** (no proper way to make/harvest yet)
 - Added new blocks, **Hypercooler** and **Electrolysis Chamber**
-- Added **Concussion** turret (and an extra, **Perplex**)
+- Added **Concussion**, **Armageddon** turret (and an extra, **Perplex**)
 - Bridged **hydrogen and ozone** into serpulo
 ### v.1.2.1
 - Added the **Seconde Enhancer**
