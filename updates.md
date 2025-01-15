@@ -22,3 +22,18 @@ C refers to fixes
 ### v.1.0.0
 - Units like the **Gust, Thrust** have been made
 - Blocks like **Prime Enhancer,** and **Garage**
+
+STUFF ADDED SO FAR
+### Units
+Gust, Thrust, Barrage
+### Items
+Neodymium, Archisolenoid
+### Liquids
+Hyperquantum Fluid, Exotic Matter
+## Blocks
+### Turrets
+Concussion, Perplex
+### Crafters
+Hypercooler, Electrolysis Chamber
+### Units
+Garage, Prime Enhancer, Seconde Enhancer
