@@ -17,6 +17,7 @@ Note: v.A.B.C
 //crafting
 
 **hyper-cooler, electrolysis-chamber**
+
 //sandbox
 
 //defense
@@ -34,12 +35,21 @@ Note: v.A.B.C
 //turrets
 
 **concussion, armageddon, perplex**
+
 //units
 
 **garage, prime-enhancer, seconde-enhancer**
+
 //payloads
 
 //logic
+
+//liquids (literal)
+
+**hyperquantumfluid, exoticmatter**
+
+//items (literal)
+**neodymium, archisolenoid**
 
 ## Updates
 ### v.2.2.2
