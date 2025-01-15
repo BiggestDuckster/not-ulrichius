@@ -3,7 +3,7 @@ Note: v.A.B.C
 
 *A* refers to major updates,
 *B* refers to small additions,
-*C* refers to fixes
+*C* refers to fixes.
 
 # STUFF ADDED SO FAR (2.2.2, Blocks)
 //environment
