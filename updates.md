@@ -2,27 +2,43 @@ Every update in recorded history!
 Note: v.A.B.C
 
 *A* refers to major updates,
+
 *B* refers to small additions,
+
 *C* refers to fixes
 
 # STUFF ADDED SO FAR (2.2.2, Blocks)
 //environment
+
 //ores
+
 //wall ores
+
 //crafting
+
 **hyper-cooler, electrolysis-chamber**
 //sandbox
+
 //defense
+
 //transport
+
 //liquid
+
 //power
+
 //production
+
 //storage
+
 //turrets
+
 **concussion, armageddon, perplex**
 //units
+
 **garage, prime-enhancer, seconde-enhancer**
 //payloads
+
 //logic
 
 ## Updates
